@@ -3,7 +3,10 @@ plugins {
     // START: FlutterFire Configuration
     id 'com.google.gms.google-services'
     // END: FlutterFire Configuration
-    id "kotlin-android"
+
+    //id "kotlin-android"
+    id "org.jetbrains.kotlin.android"
+
     id "dev.flutter.flutter-gradle-plugin"
 }
 
@@ -31,6 +34,8 @@ android {
     ndkVersion flutter.ndkVersion
 
     compileOptions {
+        coreLibraryDesugaringEnabled = true //flutter_local_notifications 기기가 낮은 버전에서도 적용
+
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
@@ -73,5 +78,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
     implementation("com.google.firebase:firebase-analytics")
+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4' //desugaring에 필요한 Java API 호환 라이브러리 추가
 }
 apply plugin: 'com.google.gms.google-services'
