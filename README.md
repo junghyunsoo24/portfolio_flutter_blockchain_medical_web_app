@@ -37,7 +37,7 @@
 
 ## 4. 맡은 역할 및 사용 기술
 ### Flutter를 통한 크로스플랫폼 App 개발(Android 앱, Window 앱)
-- CODEF 의료 API 연동 통한 카카오 지갑 인증 및 의료 데이터 조회
+- ﻿CODEF 의료 API 통한 카카오 지갑 인증 및 데이터 조회
 - FireBase의 FireStore를 통한 다른 플랫폼 간 데이터 송수신, FCM을 통한 알림 설정
 - SQLite Drift 통한 앱 내 DB 저장
 - Future 통한 비동기 적용
