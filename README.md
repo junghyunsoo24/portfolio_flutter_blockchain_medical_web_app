@@ -35,7 +35,7 @@
 ## 3. 시스템 구조
 ![image](https://github.com/junghyunsoo24/portfolio-teenager-emotion-prevent-app-teenagers/assets/117528532/07d85dc9-4d0d-40ae-b013-8534f7c4afc7)
 
-## 4. 맡은 역할 및 사용 기술
+## 4. 사용 기술
 ### Flutter를 통한 크로스플랫폼 App 개발(Android 앱, Window 앱)
 - ﻿CODEF 의료 API 통한 카카오 지갑 인증 및 데이터 조회
 - FireBase의 FireStore를 통한 다른 플랫폼 간 데이터 송수신, FCM을 통한 알림 설정
