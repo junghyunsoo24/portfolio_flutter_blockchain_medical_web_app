@@ -37,17 +37,15 @@
 
 ## 4. 맡은 역할 및 사용 기술
 ### Flutter를 통한 크로스플랫폼 App 개발(Android 앱, Window 앱)
-#### 1) 역할
-- SQLite통한 개인정보/의료 데이터 앱 내 DB 관리
-- CODEF 의료 API 통한 카카오 지갑 인증 및 환자의 건강검진/진료내역/처방내역 조회
-- FireBase FireStore를 통한 다른 플랫폼 간 데이터 송수신 및 조회/알림
-- FireBase FCM을 통한 복용 시간 알림 설정
-- 의료 데이터를 해시값으로 변환하여 블록체인에 저장 및 데이터 무결성 검증
-#### 2) 기술
-- drift통한 SQLite DB 내 ORM 적용
-- Future/async/awit 통한 비동기 프로그래밍
+- CODEF 의료 API 연동 통한 카카오 지갑 인증 및 의료 데이터 조회
+- FireBase의 FireStore를 통한 다른 플랫폼 간 데이터 송수신, FCM을 통한 알림 설정
+- SQLite Drift 통한 앱 내 DB 저장
+- Future 통한 비동기 적용
+- Spring 서버와 REST API 연동
 - Provider 통한 MVVM 패턴
-- 협업 통한 Spring 서버와 RESTful API 통신
+- 해시값으로 변환된 의료 데이터 블록체인에 저장(데이터 무결성 검증)
+
+`Dart` `Flutter` `Dio` `Firebase` `Drift` `MySQL`
 
 ## 5. 깨달음
  - 앱 개발을 팀원과 같이 하니 혼자에 비해 직접적인 깃허브 사용 능력과 코드 개선에 도움 
